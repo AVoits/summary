@@ -1,0 +1,21 @@
+{
+  "name": "summary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "components/timeline-item/index.js",
+  "scripts": {
+    "start": "npx parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.7.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.16",
+    "postcss-modules": "^4.3.1",
+    "prettier": "2.7.0"
+  }
+}

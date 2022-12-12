@@ -1,8 +1,4 @@
-import './components/timeline-item';
-
-const hostTimeLine = document.querySelector('#timeline');
-
-const workLine = [
+export const workLine = [
     {
         name: '1111',
         time: {
@@ -36,9 +32,3 @@ const workLine = [
         info: 'Again, we define our getter and setter methods,',
     },
 ];
-
-workLine.map((el, index) => {
-    const tag = document.createElement('timeline-item');
-    tag.data = el;
-    hostTimeLine.append(tag);
-});
